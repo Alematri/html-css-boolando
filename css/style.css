@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: sans-serif;
+}
+
 .container{
   width: 90%;
   max-width: 1400px;
@@ -101,6 +105,7 @@ header .logo{
 
 main{
   padding-top: 130px;
+  padding-bottom: 60px;
 }
 
 main .row .col{
@@ -135,6 +140,7 @@ main .row .col .favourite{
   top: 0;
   right: 0;
   background-color: white;
+  cursor: pointer;
 }
 
 main .row .col .favourite{
@@ -181,8 +187,42 @@ main .card .price span{
   font-weight: bold;
 }
 
-main .card .price span:last-child{
+main .card .price span:nth-child(2){
   font-size: .9rem;
   color: black;
   text-decoration:line-through;
+}
+
+/* FOOTER */
+
+footer{
+  background-color: #1c1c1c;
+  color: white;
+  padding: 30px;
+}
+
+footer .footer-social h4{
+  text-align: left;
+}
+
+.footer-info h3{
+ margin-bottom: 10px;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover{
+  cursor: pointer;
+}
+
+.footer-social h4{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.footer-social ul{
+justify-content: space-between;  
 }
