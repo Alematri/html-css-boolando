@@ -141,8 +141,12 @@ main .row .col .favourite{
   top: 10px;
   right: 0px;
   background-color: white;
-  padding: 20px 15px;
-  font-size: 1.5rem;
+  padding: 10px 18px;
+  font-size: 2.2rem;
+}
+
+main .row .col .favourite:hover{
+  color: red;
 }
 
 main .row .card .card-badge{
@@ -153,7 +157,11 @@ main .row .card .card-badge{
 }
 
 main .row .card .card-badge{
-  padding: 15px 0;
+  padding: 50px 0;
+}
+
+main .row .card .card-badge span{
+  padding: 5px;
 }
 
 main .row .card .card-badge .discount{
