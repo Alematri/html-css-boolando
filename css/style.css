@@ -152,8 +152,8 @@ main .row .card .card-badge{
   font-weight: bold;
 }
 
-main .row .card .card-badge .badge{
-  padding: 5px 10px;
+main .row .card .card-badge{
+  padding: 15px 0;
 }
 
 main .row .card .card-badge .discount{
@@ -171,5 +171,10 @@ main .tag .price{
 main .card .price span{
   color:red;
   font-weight: bold;
+}
 
+main .card .price span:last-child{
+  font-size: .9rem;
+  color: black;
+  text-decoration:line-through;
 }
