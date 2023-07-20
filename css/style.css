@@ -60,6 +60,11 @@ header{
   height: 80px;
   color: white;
   box-shadow: 0 1px 3px gray;
+  z-index: 1;
+}
+
+header .conteiner{
+  padding: 0 10px;
 }
 
 header nav ul a{
@@ -93,3 +98,78 @@ header .logo{
 }
 
 /* MAIN */
+
+main{
+  padding-top: 130px;
+}
+
+main .row .col{
+  width: calc(100% /3);
+  min-width: 250px;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+main .row .col .card .card-image{
+  position: relative;
+}
+
+
+main .row .col .favourite,
+main .row .col .card-badge{
+  position: absolute;
+}
+
+main .card-image .secondary-image{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+
+main .card-image:hover .secondary-image{
+  display: block;
+}
+
+main .row .col .favourite{
+  top: 0;
+  right: 0;
+  background-color: white;
+}
+
+main .row .col .favourite{
+  top: 10px;
+  right: 0px;
+  background-color: white;
+  padding: 20px 15px;
+  font-size: 1.5rem;
+}
+
+main .row .card .card-badge{
+  left: 0;
+  bottom: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+main .row .card .card-badge .badge{
+  padding: 5px 10px;
+}
+
+main .row .card .card-badge .discount{
+  background-color: red;
+}
+
+main .row .card .card-badge .tag{
+  background-color: green;
+}
+
+main .tag .price{
+  font-size: .9rem;
+}
+
+main .card .price span{
+  color:red;
+  font-weight: bold;
+
+}
